@@ -7,7 +7,7 @@ Install
 
 .. code-block:: bash
 
-    pip install trademac-marker
+    pip install trademac-trademark
 
 =======
 Example
