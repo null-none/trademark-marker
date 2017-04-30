@@ -15,17 +15,15 @@ Example
 
 .. code-block:: python
 
-  from trademark.marker import API
+  from trademark import marker
 
   params = {
-    'username': 'username',
-    'password': 'password',
-    'search': 'search'
-  }
-
-  marker = API(params)
-
-  print marker.result()
+          'username': 'TRADEMARK_USERNAME',
+          'password': 'TRADEMARK_PASSWORD',
+          'search': 'word'
+        }
+  trademark = marker.API(params)
+  print trademark.result()
 
 
 =======
